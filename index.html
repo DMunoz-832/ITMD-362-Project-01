@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" class="hasjs">
+<head>
+  <title>Annual IT Conference</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
+  <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css" />
+  <script src="js/site.js" async></script>
+</head>
+<body>
+  <div class="main">
+   <div class="info">
+    <h1>Go Spam Me</h1>
+    <p>Tired of receiving spam in your main email? Well spam your local spammer with this simple tool. Just add their email, the amount number of emails sent, and we'll send them for you at random times to inflict the maximum amount of frustration. You can leave them a little message too!</p> 
+   </div>
+   <form method="get" action="#null" name="registerForm" onsubmit="return chkemtpy()">
+   <div class="title">
+    <h2>Spam Now</h2>
+   </div>
+   <div class="register">
+    <label>Email: </label>
+     <input type="text" name="email" placeholder="Email">
+	<label>Number of Emails</label>
+     <input type="number" name="number" placeholder="Number">
+	<label>Message:</label>
+     <input type="text" name="message" placeholder="Message">
+	 <label>Select the type of email sent:</label>
+    <select>
+      <option value="speaker-type" selected>-Speaker-</option>
+      <option value="lecture">Lecture</option>
+      <option value="presentation">Presentation</option>
+      <option value="case-study">Case Study</option>
+      <option value="product-demo">Product Demo</option>
+    </select>
+   </div>
+   <div class="check">
+    <input type="checkbox" name="checkbox">
+    <label>I agree to the Privacy Policy</label>
+   </div>
+   <button type="Submit">Submit</button>
+   </form>
+  </div>
+</body>
+</html>
