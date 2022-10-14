@@ -42,7 +42,7 @@ p{
 	text-align: center;
 	width:fit-content;
 	height: fit-content;
-	background: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), .5);
+	background: rgba(225, 100,255,.5);
 }
 .title {
 	margin-bottom: 18px;
