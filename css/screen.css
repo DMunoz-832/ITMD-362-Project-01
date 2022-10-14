@@ -29,11 +29,6 @@ p{
 	padding-top: 15px;
 	font-weight: 900;
 }
-p.round {
-	border: 2px lightgreen;
-	border-radius: 12px;
-	padding: 5px;
-}
 .main {
 	display: flex;
 	flex-direction: column;
@@ -45,6 +40,7 @@ p.round {
 	padding: 24px;
 	font-size: 22px;
 	text-align: center;
+	opacity: .8;
 }
 .title {
 	margin-bottom: 18px;
