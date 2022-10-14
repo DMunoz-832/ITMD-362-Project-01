@@ -40,7 +40,9 @@ p{
 	padding: 24px;
 	font-size: 25px;
 	text-align: center;
-	background: rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), .5);
+	width:fit-content;
+	height: fit-content;
+	background: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), .5);
 }
 .title {
 	margin-bottom: 18px;
