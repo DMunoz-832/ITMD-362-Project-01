@@ -2,7 +2,7 @@ html {
 	min-height: 100%;
 }
 body {
-	background-image: url("background/space.jpg");
+	background-image: url("background/spam.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 100%;
@@ -71,7 +71,7 @@ button {
 	margin-top: 5px;
 	background: white;
 	border: solid;
-	border-color: red;
+	border-color: rgb(9, 255, 0);
 	border-radius: 6px;
 }
 @media (min-width: 650px) {
