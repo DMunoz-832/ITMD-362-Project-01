@@ -1,7 +1,6 @@
 html {
   min-height: 100%;
 }
-
 /*MODULAR SCALE: MINOR THIRD
   link: https://www.modularscale.com/?1&em&1.2*/
 
@@ -11,7 +10,6 @@ html {
   line-height: 1.2em;
   padding:1.2em;
 }
-
 body {
   background-image: url("background/spam.jpg");
   background-repeat: no-repeat;
@@ -22,7 +20,6 @@ body {
   margin: 0;
   color: rgb(255, 255, 255);
 }
-
 h1 {
   text-transform: capitalize;
   font-size: 35px;
@@ -91,6 +88,10 @@ button {
   border-color: rgb(9, 255, 0);
   border-radius: 6px;
 }
+a:hover {
+  background-color: rgba(0, 128, 255);
+}
+
 @media (min-width: 650px) {
 html {
 	  height: 100%
