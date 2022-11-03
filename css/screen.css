@@ -3,7 +3,6 @@ html {
 }
 /*MODULAR SCALE: MINOR THIRD
   link: https://www.modularscale.com/?1&em&1.2*/
-
 .formDiv {
   text-align:center;
   font-size: 1em;
@@ -83,13 +82,16 @@ button {
   width: 100%;
   padding: 5px;
   margin-top: 5px;
-  background: white;
   border: solid;
   border-color: rgb(9, 255, 0);
   border-radius: 6px;
 }
-a:hover {
-  background-color: rgba(0, 128, 255);
+input[type=submit]:hover {
+  background-color: white;
+}
+input[type=submit] {
+  font-family: 'Fredoka One', cursive;
+  background-color: rgba(0, 128, 255, 0.9);
 }
 
 @media (min-width: 650px) {
