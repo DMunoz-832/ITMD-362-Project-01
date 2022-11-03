@@ -1,6 +1,17 @@
 html {
   min-height: 100%;
 }
+
+/*MODULAR SCALE: MINOR THIRD
+  link: https://www.modularscale.com/?1&em&1.2*/
+
+.formDiv {
+  text-align:center;
+  font-size: 1em;
+  line-height: 1.2em;
+  padding:1.2em;
+}
+
 body {
   background-image: url("background/spam.jpg");
   background-repeat: no-repeat;
